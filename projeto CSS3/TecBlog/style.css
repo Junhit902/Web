@@ -1,0 +1,10 @@
+.conteudo {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 20px;
+}
+
+.conteudo2 {
+    border: 2px solid red;
+    background-image: url('imagens/foto1.png');
+}
