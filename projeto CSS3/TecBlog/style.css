@@ -1,10 +1,39 @@
-.conteudo {
-    border: 2px solid red;
+p {
+    text-align: justify;
     padding: 10px;
-    margin: 20px;
+    clear: both;
 }
 
-.conteudo2 {
+img {
+    width: 150px;
+}
+
+#principal {
+    background-color: antiquewhite;
+    border: 1px solid gray;
+}
+
+#galeria-imagens {
+    border: 2px solid blue;
+    background-color: black;
+}
+
+.imagem {
+    float: left;
+    padding: 10px;
+    margin: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.noticia {
     border: 2px solid red;
-    background-image: url('imagens/foto1.png');
+    background-color: azure;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
 }
