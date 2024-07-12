@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Geral */
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: darkcyan;
+}
+
+h3 {
+    background-color: darkcyan;
+    color: midnightblue;
+    padding: 10px;
+}
+p {
+    padding: 10px;
+    text-align: justify;
+}
+
+body {  
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+}
+/* Cabeçalho */
+#cabecalho {
+    background-color: darkcyan;
+    font-size: 1em;
+    text-align: center;
+    padding: 2px;
+}
+
+#logo {
+    border: none;
+}
+
+.branco {
+    color: white;
+}
+
+.preto {
+    color: midnightblue;
+}
+
+/* Menu */
+a {
+    text-decoration: none;
+    border: none;
+    padding: 10px 14px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a:link, a:visited{
+    color: white;
+}
+
+a:active {
+    color: midnightblue;
+}
+.link-lateral:link, .link-lateral:visited, .link-lateral:active, .link-lateral:hover{
+    color: midnightblue;
+}
+
+.links-menu:hover{
+    background-color: azure;
+    color: midnightblue;
+}
+/* Conteúdos */
+#conteudo-principal {
+    width: 980px;
+}
+
+#postagens {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    left: 200px;
+    top: 20px;
+    width: 620px;
+    float: left;
+}
+
+#postagens-lateral {
+    background-color: white;
+    padding: 10px;
+    margin-left: 60px;
+    position: relative;
+    left: 200px;
+    bottom: 830px;
+    float: right;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.postagens-titulos {
+    border: none;
+    padding-left: 15px;
+}
+
+#postagem-1 {
+    text-align: center;
+    padding: 5px;
+}
+
+#rodape {
+    clear: both;
+    background-color: darkgrey;
+    position: relative;
+    top: 60px;
+    left: 250px;
+    text-align: center;
+}
+
+#postagem-lateral1 {
+    border-bottom: 2px dotted gray;
+}
+
+#links-categoria {
+    list-style: none;
+    padding: 5px;
+}
+
+.link-categoria:link, .link-categoria:visited, .link-categoria:hover, .link-categoria:active {
+    color: darkcyan;
+}
+
+.data-postagem {
+    border-bottom: 1px ridge gray;
+    padding-bottom: 5px;
+    margin: 5px;
+    display: block;
+}
